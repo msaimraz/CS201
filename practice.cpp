@@ -1,9 +1,9 @@
 #include<iostream> // preprocessor directive or header file
 using namespace std; //standard library
-main()// main funtion
+main() // main funtion
 {
 	//for getting output
-	// cout << "Hello World"<<endl;
+	cout << "Hello World"<<endl;
 	// cout << "Hello World2";
 	
 	//Calculate the average age of a class of ten students. Prompt the user to enter the age of each student. 
@@ -56,19 +56,18 @@ main()// main funtion
 //	Write a program that takes radius of a circle from the user and calculates the diameter,circumference and area of the circle and display the result
 	
 	 
-// float radius, diameter, circumference, area; 
+ float radius, diameter, circumference, area; 
 // 
-// cout << "Please enter the radius of the circle " ; 
-// cin >> radius ; 
-// 
-// 
-// diameter = radius * 2 ; 
-// circumference = 2 * 3.14 * radius ; // 3.14 is the value of (Pi) 
-// area = 3.14 * radius * radius ; 
-// 
-// cout << "The diameter of the circle is : " << diameter << endl; 
-// cout << "The circumference of the circle is : " << circumference <<endl; 
-// cout << "The area of the circle is : " << area ;
+ cout << "Please enter the radius of the circle " ; 
+ cin >> radius ; 
+
+ diameter = radius * 2 ; 
+ circumference = 2 * 3.14 * radius ; // 3.14 is the value of (Pi) 
+ area = 3.14 * radius * radius ; 
+
+ cout << "The diameter of the circle is : " << diameter << endl; 
+ cout << "The circumference of the circle is : " << circumference <<endl; 
+ cout << "The area of the circle is : " << area ;
  
 // Tables;
 
